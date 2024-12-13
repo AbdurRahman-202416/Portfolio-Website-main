@@ -13,7 +13,7 @@ const Navbar = () => {
                     </a>
                     <div className="hidden xl:flex items-center gap-8">
                         <nav className="flex gap-8">
-                            {["home", "services", "resume", "work", "blog", "contact"].map((item) => (
+                            {["home", "services", "resume", "work", "contact"].map((item) => (
                                 <a
                                     key={item}
                                     href={`/${item}`}
