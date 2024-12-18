@@ -6,10 +6,10 @@ const SocialLinks = () => {
         <div>
             <div className="flex  gap-4">
                 {[
-                    { href: "https://github.com/", icon: "github" },
-                    { href: "https://www.linkedin.com/in/", icon: "linkedin" },
-                    { href: "https://www.facebook.com/", icon: "facebook" },
-                    { href: "https://www.instagram.com/", icon: "instagram" },
+                    { href: "https://github.com/AbdurRahman-202416?tab=repositories0", icon: "github" },
+                    { href: "https://www.linkedin.com/in/abdur-rahman-8635b9290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ", icon: "linkedin" },
+                    { href: "https://www.facebook.com/shak.santo.7/", icon: "facebook" },
+                    { href: "https://www.instagram.com/sajjad_hossen_santo?igsh=YzljYTk1ODg3Zg==", icon: "instagram" },
                 ].map((link) => (
                     <a
                         key={link.icon}
