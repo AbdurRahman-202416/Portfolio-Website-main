@@ -10,7 +10,7 @@ import Nofound from './Pages/Nofound';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route>
+      <>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Nofound />} />
-      </Route>
+      </>
     )
   );
 

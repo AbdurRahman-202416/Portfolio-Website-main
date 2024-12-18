@@ -1,6 +1,8 @@
 import Navbar from "../Component/Navbar";
 
 const Services = () => {
+    const a = 1+2 
+    console.log(a)
     return (
         <div>
             <div>
@@ -61,7 +63,7 @@ const Services = () => {
                         </div>
                         <div className="flex-1 shadow-xl shadow-indigo-900 hover:text-[#00FF99] group border  border-[#2EAC6D]  px-3  rounded-md  sm:px-3 py-8 flex flex-col justify-center gap-6 group transition duration-500">
                             <div className="w-full flex justify-between items-center">
-                                <div className="text-5xl font-extrabold  transition-all shadow-sm duration-500 ">04 <span className="text-5xl text-[#00FF99]">.</span> </div>
+                                <div className="text-3xl font-extrabold  transition-all shadow-sm duration-500 ">04 <span className="text-5xl text-[#00FF99]">.</span> </div>
                                 <a className="w-[50px] h-[50px] rounded-full transition-all duration-500 group-hover:bg-blue-950 bg-white border group-hover:border-[#00FF99]  flex justify-center items-center group-hover:-rotate-45 " href="#">
                                     <svg className="h-10 w-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve" fill="#000000" transform="">
                                         <g id="SVGRepo_bgCarrier" strokeWidth={0} />

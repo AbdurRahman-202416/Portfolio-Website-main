@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom";
 const NotFountPage = () => {
     return (
-        <div style={{ height: "90vh" }} className="bg-slate-50  mt-2 ">
+        <div style={{ height: "90vh" }} className=" mt-2 ">
             <section className="text-center flex flex-col justify-center items-center h-96">
                 <i className="fa-solid fa-triangle-exclamation fa-fade text-6xl m-8 p-5" />
 
