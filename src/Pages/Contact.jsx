@@ -2,6 +2,44 @@ import React from 'react'
 import Navbar from '../Component/Navbar'
 
 const Contact = () => {
+  const Submit = async (event) => {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Create FormData object from the form
+    const formData = new FormData(event.target);
+    formData.append("access_key", "53b38d76-ef06-43ab-86d4-34cc8a168115");
+
+    // Convert FormData to a JSON object
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+      // Send the POST request to the API
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      });
+
+      const result = await res.json(); // Parse the JSON response
+
+      if (result.success) {
+        event.target.reset(); // Clear all form fields
+        alert("submitted successfully!"); // Show success alert
+
+      } else {
+        alert("Something went wrong. Please try again!"); // Show error alert
+      }
+    } catch (error) {
+      alert("An error occurred while submitting the form.");
+      console.error("Error:", error);
+    }
+  };
+
+
   return (
     <div className='bg-[#0A2647]'>
       <div>
@@ -80,7 +118,7 @@ const Contact = () => {
 
             {/* Form Section */}
             <div className="w-full xl:w-1/2 bg-gradient-to-r from-gray-800 via-slate-700 to-gray-900 text-[#F6FAB9] px-6 py-8 sm:px-10 flex sm:justify-between rounded-lg">
-              <form>
+              <form onSubmit={Submit} >
                 <h3 className="text-[20px] sm:mb-10 flex justify-center md:text-4xl font-semibold ">
                   Let's Work Together <span className="text-2xl px-4 sm:text-4xl  text-[#00ff99]">.</span>
                 </h3><hr className='py-1 bg-[#0A2647] mx-1 hover:bg-slate-800 border border-slate-700 shadow-slate-900 rounded-xl shadow-2xl mt-3' />
@@ -91,24 +129,29 @@ const Contact = () => {
                     name="name"
                     placeholder="Full Name"
                     className="w-full rounded border border-gray-400 bg-[#0A2647] p-3 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#00ff99] dark:bg-gray-700 dark:text-gray-200 dark:placeholder-gray-500"
+                    required
                   />
                   <input
                     type="email"
                     name="email"
                     placeholder="Email"
                     className="w-full rounded border border-gray-400 p-3 bg-[#0A2647] text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#00ff99] dark:bg-gray-700 dark:text-gray-200 dark:placeholder-gray-500"
+                    required
                   />
                   <input
                     type="text"
                     name="phone"
                     placeholder="Phone"
                     className="w-full rounded border border-gray-400 bg-[#0A2647] p-3 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#00ff99] dark:bg-gray-700 dark:text-gray-200 dark:placeholder-gray-500"
+                    required
                   />
                   <textarea
                     rows="4"
                     name="details"
                     placeholder="Message"
                     className="w-full rounded border resize-none border-gray-300 p-3 bg-[#0A2647] text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-[#00ff99] dark:bg-gray-700 dark:text-gray-200 dark:placeholder-gray-500"
+
+                    required
                   ></textarea>
                 </div>
                 <button

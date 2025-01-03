@@ -9,7 +9,7 @@ const Experience = () => {
                     <div className="flex flex-col lg:flex-row justify-between items-start gap-4">
                         {/* Company Info */}
                         <div className="text-center lg:text-left"> 
-                            <h3 class="text-2xl sm:text-4xl font-semibold py-4"> <span className='text-2xl text-[#00ff99]'>.</span>My Experience</h3>
+                            <h3 class="text-2xl sm:text-4xl font-semibold py-4"> <span className='text-2xl mx-2 text-[#00ff99]'>💼</span>My Experience</h3>
 
                             <h3 className="text-[12px] sm:text-2xl font-bold text-[#00ff99] opacity-90">
                                 KONA Software Lab LTD

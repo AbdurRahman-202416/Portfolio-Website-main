@@ -14,7 +14,7 @@ const Services = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]" >
                         <div className="flex-1 shadow-xl shadow-indigo-900 hover:text-[#00FF99] group border  border-[#2EAC6D]  px-3  rounded-md  sm:px-3 py-8 flex flex-col justify-center gap-6 group transition duration-500">
                             <div className="w-full flex justify-between items-center">
-                                <div className="text-5xl font-extrabold  transition-all shadow-sm duration-500 ">01 <span className="text-5xl text-[#00FF99]">.</span> </div>
+                                <div className="text-3xl font-extrabold  transition-all shadow-sm duration-500 "> 01 <span className="text-5xl text-[#00FF99]">.</span> </div>
                                 <a className="w-[50px] h-[50px] rounded-full transition-all duration-500 group-hover:bg-blue-950 bg-white border group-hover:border-[#00FF99]  flex justify-center items-center group-hover:-rotate-45 " href="#">
                                     <svg className="h-10 w-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve" fill="#000000" transform="">
                                         <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -23,7 +23,7 @@ const Services = () => {
                                     </svg>
                                 </a>
                             </div>
-                            <h2 className="sm:text-[38px] text-[22px] font-bold   text-left tracking-tighter leading-9   group-hover:text-accent ">Custom Website Development</h2>
+                            <h2 className="sm:text-[38px] text-[20px] font-bold   text-left tracking-tighter leading-9   group-hover:text-accent ">Custom Website Development</h2>
                             <p className="">Build responsive and visually appealing websites tailored to client needs using HTML, CSS, JavaScript, and modern frameworks.</p>
                             <div className="border-b border-white/20 w-full">
                             </div>
@@ -31,7 +31,7 @@ const Services = () => {
 
                         <div className="flex-1 shadow-xl shadow-indigo-900 hover:text-[#00FF99] group border  border-[#2EAC6D]  px-3  rounded-md  sm:px-3 py-8 flex flex-col justify-center gap-6 group transition duration-500">
                             <div className="w-full flex justify-between items-center">
-                                <div className="text-5xl font-extrabold  transition-all shadow-sm duration-500 ">02 <span className="text-5xl text-[#00FF99]">.</span> </div>
+                                <div className="text-3xl font-extrabold  transition-all shadow-sm duration-500 ">02 <span className="text-5xl text-[#00FF99]">.</span> </div>
                                 <p className="w-[50px] h-[50px] rounded-full transition-all duration-500 group-hover:bg-blue-950 bg-white  border group-hover:border-[#00FF99] flex justify-center items-center group-hover:-rotate-45 " href="#">
                                     <svg className="h-10 w-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve" fill="#000000" transform="">
                                         <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -40,14 +40,14 @@ const Services = () => {
                                     </svg>
                                 </p>
                             </div>
-                            <h2 className="sm:text-[38px]  text-[22px] font-bold  text-left tracking-tighter leading-9    group-hover:text-accent ">Single Page Applications (SPAs)</h2>
+                            <h2 className="sm:text-[38px]  text-[20px] font-bold  text-left tracking-tighter leading-9    group-hover:text-accent ">Single Page Applications (SPAs)</h2>
                             <p className="">Develop dynamic SPAs using React.js to deliver seamless user experiences.</p>
                             <div className="border-b border-white/20 w-full">
                             </div>
                         </div>
                         <div className="flex-1 shadow-xl shadow-indigo-900 hover:text-[#00FF99] group border  border-[#2EAC6D]  px-3  rounded-md  sm:px-3 py-8 flex flex-col justify-center gap-6 group transition duration-500">
                             <div className="w-full flex justify-between items-center">
-                                <div className="text-5xl font-extrabold  transition-all shadow-sm duration-500 ">03 <span className="text-5xl text-[#00FF99]">.</span> </div>
+                                <div className="text-3xl font-extrabold  transition-all shadow-sm duration-500 ">03 <span className="text-5xl text-[#00FF99]">.</span> </div>
                                 <a className="w-[50px] h-[50px] rounded-full transition-all duration-500 group-hover:bg-blue-950 bg-white border group-hover:border-[#00FF99]  flex justify-center items-center group-hover:-rotate-45 " href="#">
                                     <svg className="h-10 w-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve" fill="#000000" transform="">
                                         <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -56,7 +56,7 @@ const Services = () => {
                                     </svg>
                                 </a>
                             </div>
-                            <h2 className="sm:text-[38px]  text-[22px] font-bold  text-justify tracking-tighter leading-9    group-hover:text-accent ">UI/UX Implementation</h2>
+                            <h2 className="sm:text-[38px]  text-[20px] font-bold  text-justify tracking-tighter leading-9    group-hover:text-accent ">UI/UX Implementation</h2>
                             <p className="">Convert UI/UX designs into pixel-perfect, functional web interfaces using Tailwind CSS and Bootstrap.</p>
                             <div className="border-b border-white/20 w-full">
                             </div>
@@ -72,14 +72,14 @@ const Services = () => {
                                     </svg>
                                 </a>
                             </div>
-                            <h2 className="sm:text-[38px]  text-[22px] font-bold   text-left tracking-tighter leading-9   group-hover:text-accent ">Custom React Components Development</h2>
+                            <h2 className="sm:text-[38px]  text-[20px] font-bold   text-left tracking-tighter leading-9   group-hover:text-accent ">Custom React Components Development</h2>
                             <p className="">Custom React Components Development.</p>
                             <div className="border-b border-white/20 w-full">
                             </div>
                         </div>
                         <div className="flex-1 shadow-xl shadow-indigo-900 hover:text-[#00FF99] group border  border-[#2EAC6D]  px-3  rounded-md  sm:px-3 py-8 flex flex-col justify-center gap-6 group transition duration-500">
                             <div className="w-full flex justify-between items-center">
-                                <div className="text-5xl font-extrabold  transition-all  shadow-sm duration-500 ">05<span className="text-5xl  shadow-lg text-[#00FF99]">.</span></div>
+                                <div className="text-3xl font-extrabold  transition-all  shadow-sm duration-500 ">05<span className="text-5xl  shadow-lg text-[#00FF99]">.</span></div>
                                 <a className="w-[50px] h-[50px] rounded-full transition-all duration-500 group-hover:bg-blue-950 border group-hover:border-[#00FF99] bg-white   flex justify-center items-center group-hover:-rotate-45 " href="#">
                                     <svg className="h-10 w-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve" fill="#000000" transform="">
                                         <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -88,14 +88,14 @@ const Services = () => {
                                     </svg>
                                 </a>
                             </div>
-                            <h2 className="sm:text-[38px]  text-[22px] font-bold  text-left tracking-tighter leading-9    group-hover:text-accent ">Frontend Debugging and Optimization</h2>
+                            <h2 className="sm:text-[38px]  text-[20px] font-bold  text-left tracking-tighter leading-9    group-hover:text-accent ">Frontend Debugging and Optimization</h2>
                             <p className="">Identify and fix UI bugs to ensure a smooth user experience..</p>
                             <div className="border-b border-white/20 w-full">
                             </div>
                         </div>
                         <div className="flex-1 shadow-xl shadow-indigo-900 hover:text-[#00FF99] group border  border-[#2EAC6D]  px-3  rounded-md  sm:px-3 py-8 flex flex-col justify-center gap-6 group transition duration-500">
                             <div className="w-full flex justify-between items-center">
-                                <div className="text-5xl font-extrabold  transition-all shadow-sm duration-500  ">06 <span className="text-5xl text-[#00FF99]">.</span> </div>
+                                <div className="text-3xl font-extrabold  transition-all shadow-sm duration-500  ">06 <span className="text-5xl text-[#00FF99]">.</span> </div>
                                 <a className="w-[50px] h-[50px] rounded-full transition-all duration-500 group-hover:bg-blue-950 bg-white border group-hover:border-[#00FF99]  flex justify-center items-center group-hover:-rotate-45 " href="#">
                                     <svg className="h-10 w-10" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve" fill="#000000" transform="">
                                         <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -104,7 +104,7 @@ const Services = () => {
                                     </svg>
                                 </a>
                             </div>
-                            <h2 className="sm:text-[38px]  text-[22px] font-bold  text-justify tracking-tighter leading-9  group-hover:text-accent ">Tailwind CSS and Bootstrap Theme Development</h2>
+                            <h2 className="sm:text-[38px]  text-[20px] font-bold  text-justify tracking-tighter leading-9  group-hover:text-accent ">Tailwind CSS and Bootstrap Theme Development</h2>
                             <p className="">Design and develop custom themes using Tailwind CSS and Bootstrap to meet branding needs..</p>
                             <div className="border-b border-white/20 w-full">
                             </div>

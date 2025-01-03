@@ -3,14 +3,14 @@ import React from 'react'
 const Education = () => {
     return (
         <div> <div className="flex flex-col gap-8 text-center xl:text-left">
-            <h3 className=" text-2xl leading-4 sm:text-4xl font-bold">My Education</h3>
+            <h3 className=" text-2xl leading-4 sm:text-4xl font-bold"><span className='mx-2 p-1'>🎓</span> My Education</h3>
             <p className="max-w-3xl leading-4 text-white/60 mx-auto xl:mx-0">
                 Here's an overview of my academic background and key qualifications.
             </p>
             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {/* B.Sc Honours */}
                 <li className=" shadow-xl shadow-black border border-[#00ff99] bg-gradient-to-r from-gray-900 to-gray-800 py-4 sm:py-0 text-left  px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-2">
-                    <span className="text-[#00ff99] text-left">2019 - Running</span>
+                    <span className="text-[#00ff99] text-left">2019 - 2024</span>
                     <h3 className="sm:text-lg max-w-[260px] min-h-[60px]  text-[20px] text-base ">
                         B.Sc Honours in Computer Science & Engineering
                     </h3>
@@ -24,6 +24,9 @@ const Education = () => {
                         </p>
                         <p className="text-white/60 text-sm">
                             <strong>Session:</strong> 2018-2019
+                        </p>
+                        <p className="text-white/60 text-sm">
+                            <strong>Result:</strong>Coming Soon.
                         </p>
                     </div>
                 </li>

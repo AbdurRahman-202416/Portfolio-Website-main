@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className='shadow-xl  h-[510px]  leading-5 tracking-tight sm:h-[460px] mx-2 rounded-md px-3 py-3 opacity-95 shadow-black border border-[#00ff99] bg-gradient-to-r from-gray-900 to-gray-800'>
             <div>
-                <h4 className="text-2xl sm:text-4xl dark:text-white font-bold mb-6">Skills</h4>
+                <h4 className="text-2xl sm:text-4xl dark:text-white font-bold mb-6"><span className='mx-2 p-1'>✨</span>Skills</h4>
 
                 <p className="max-w-3xl text-white/60 mx-auto text-justify py-2 xl:mx-0">
                     Specialized in crafting responsive and user-friendly web interfaces, writing clean and maintainable code, and optimizing performance. Experienced in building dynamic applications, integrating APIs, and delivering scalable solutions in collaborative environments.

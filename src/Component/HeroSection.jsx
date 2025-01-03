@@ -1,5 +1,7 @@
 import SocialLinks from './SocialLinks'
+import { Link } from 'react-router-dom'
 import CountUp from 'react-countup'
+import Img from "../assets/Img.jpg"
 
 const HeroSection = () => {
   return (
@@ -7,20 +9,23 @@ const HeroSection = () => {
       <section className='h-full my-10'>
         <div className='container mx-auto h-full flex flex-col xl:flex-row items-center justify-around xl:pt-8 xl:pb-24'>
           <div className='text-center sm:max-w-[600px] xl:text-left order-2 '>
-            <span className='text-xl py-2'>Software Developer</span>
+            <span className='text-xl py-2'>Software Developer </span> <span className='text-gray-400 text-base'>UI/UX Enthusiast</span>
             <h1 className='mb-6 sm:tracking-[13px] text-4xl sm:text-6xl'>
               Hello, I am <br />
-              <span className='text-[#00FF99]'>Shanto.</span>
+              <span className='text-[#00FF99]'>Sheikh Shanto.</span>
             </h1>
             <p className='w-[90%] mx-auto  sm:mx-0 tracking-[0px] leading-6  text-justify mb-9 text-sm sm:text-[22px]'>
-              I specialize in creating seamless and sophisticated digital
-              experiences, with strong expertise across a range of programming
-              languages and technologies.
+              Hi, I'm  Shanto, a frontend developer skilled in HTML, CSS,Tailwind css, Bootstrap Css,JavaScript,TypeScript, and React.js. I create responsive, user-friendly websites with a focus on clean design and functionality.
+              With experience in Tailwind CSS, Material UI, and Bootstrap, I build interfaces that look great and work seamlessly.
             </p>
+
             <div className='flex flex-col xl:flex-row items-center gap-8'>
-              <button className='rounded-full uppercase tracking-[0.5px] sm:tracking-tighter font-bold transition duration-700 border-2 hover:border-[white] hover:bg-[#00FF99] hover:text-blue-900   border-[#00FF99]  text-accent px-8 h-[56px]  '>
-                Download CV
-              </button>
+              <Link to={"https://drive.google.com/file/d/1jB0Iqdy4BvF8tBTCzSOvhsJUOEJR91kO/view?usp=sharing"} >
+
+                <button className='rounded-full uppercase tracking-[0.5px] sm:tracking-tighter font-bold transition duration-700 border-2 hover:border-[white] hover:bg-[#00FF99] hover:text-blue-900   border-[#00FF99]  text-accent px-8 h-[56px]  '>
+                  Download CV <span className='mx-2 p-1'>╰┈➤</span>
+                </button>
+              </Link>
               <SocialLinks />
             </div>
           </div>
@@ -28,11 +33,11 @@ const HeroSection = () => {
           <div className='mb-4 sm:mb-0  py-0 xl:mb-0'>
             <div className='w-full h-[90%] relative'>
               {/*  Image */}
-              <div className='w-[298px] h-[298px]  sm:w-[510px] sm:h-[600px] mix-blend-lighten absolute'>
+              <div className='w-[300px] h-[298px]  sm:w-[510px] sm:h-[600px] mix-blend-lighten absolute'>
                 <img
-                  src='https://scontent.fdac24-5.fna.fbcdn.net/v/t39.30808-6/469794956_4700295826862154_1898338483327274071_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=cGZMSWMp8YoQ7kNvgHkzSSx&_nc_zt=23&_nc_ht=scontent.fdac24-5.fna&_nc_gid=AcRL4i4GsRtZk8WQh3_lNo8&oh=00_AYBM7olsn1e6wZjQCNj8Rj33x50pVBONJiEeq6QPo8SHMg&oe=6766DEBC'
+                  src={Img}
                   alt='My Image'
-                  className=' w-[280px] h-[280px] sm:w-[470px] mx-auto my-3 sm:my-4 rounded-full sm:h-[470px]'
+                  className=' w-[290px] h-[280px] sm:w-[470px] mx-auto my-3 sm:my-4 rounded-full sm:h-[470px]'
                   style={{ position: 'absolute', inset: 0 }}
                 />
               </div>

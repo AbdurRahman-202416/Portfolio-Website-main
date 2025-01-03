@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <div className='shadow-xl shadow-black border px-3 rounded-md opacity-90 border-[#00ff99] bg-gradient-to-r from-gray-900 to-gray-700'>
              <div className=' '>
-                <h3 className="sm:text-4xl text-2xl py-3 font-bold">About Me</h3>
+                <h3 className="sm:text-4xl text-2xl py-3 font-bold"> <span className='mx-2 p-1'>🔎</span>About Me</h3>
                 <div className="flex px-3 flex-col lg:flex-row gap-6 text-center lg:text-left">
                   {/* Introductory Paragraph */}
                   <p className="max-w-3xl py-0 leading-5 tracking-tight sm:py-3 text-justify text-white/60 mx-auto lg:mx-0">
@@ -17,7 +17,7 @@ const AboutMe = () => {
                       {/* Name */}
                       <li className="py-4 flex flex-col sm:flex-row sm:items-start gap-2">
                         <span className="font-semibold text-left sm:w-1/4">Name:</span>
-                        <span className="text-white/70 sm:w-3/4 text-left">Abdur Rahman</span>
+                        <span className="text-white/70 sm:w-3/4 text-left">Sheikh Shanto</span>
                       </li>
 
                       {/* Phone */}
