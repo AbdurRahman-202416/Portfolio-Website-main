@@ -1,7 +1,7 @@
 import SocialLinks from './SocialLinks'
 import { Link } from 'react-router-dom'
 import CountUp from 'react-countup'
-import Img from "../assets/Img.jpg"
+import Img from "../assets/img.jpg"
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
       <section className='h-full my-10'>
         <div className='container mx-auto h-full flex flex-col xl:flex-row items-center justify-around xl:pt-8 xl:pb-24'>
           <div className='text-center sm:max-w-[600px] xl:text-left order-2 '>
-            <span className='text-xl py-2'>Software Developer </span> <span className='text-gray-400 text-base'>UI/UX Enthusiast</span>
+            <span className='text-xl py-2'>Software Developer </span> <span className='text-gray-400 px-3 text-base'>UI/UX Enthusiast</span>
             <h1 className='mb-6 sm:tracking-[13px] text-4xl sm:text-6xl'>
               Hello, I am <br />
               <span className='text-[#00FF99]'>Sheikh Shanto.</span>
@@ -32,7 +32,7 @@ const HeroSection = () => {
 
           <div className='mb-4 sm:mb-0  py-0 xl:mb-0'>
             <div className='w-full h-[90%] relative'>
-              {/*  Image */}
+
               <div className='w-[300px] h-[298px]  sm:w-[510px] sm:h-[600px] mix-blend-lighten absolute'>
                 <img
                   src={Img}
